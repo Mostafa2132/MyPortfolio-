@@ -1,6 +1,8 @@
 "use client";
 import { useEffect } from "react";
-import { motion, stagger, useAnimate } from "motion/react";
+// import { motion, stagger, useAnimate } from "motion/react";
+import { stagger, useAnimate, motion } from "framer-motion";
+
 import { cn } from "@/lib/utils";
 
 export const TextGenerateEffect = ({
@@ -30,7 +32,7 @@ export const TextGenerateEffect = ({
         
       }
     );
-  }, [scope.current]);
+  }, [animate, duration, filter]);
 
   const renderWords = () => {
     return (

@@ -5,6 +5,9 @@ import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
 import WorkExp from "@/components/WorkExp/WorkExp";
+
+
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between px-5 sm:px-10 mx-auto relative">

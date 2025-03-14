@@ -29,6 +29,7 @@ export default function Projects() {
       </h1>
 
       <div className="flex items-center justify-center p-4 flex-wrap gap-x-24  ">
+
         <div className="  lg:min-h-[28.5rem] sm:h-[25rem]  h-[23rem]   items-center justify-center flex  sm:w-[570px]   w-[80vw]">
           <PinContainer title={"Project1"} href={""}>
             <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh]  ">
@@ -91,7 +92,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="flex items-center gap-2 font-semibold sm:text-sm md:text-xs lg:text-base hover:text-purple-900  text-purple-600">
-                <Link target="_blank" href="https://my-eco-rho.vercel.app/">Show website</Link>
+                <Link target="_blank" href="https://my-eco-ybxz-fu739dk1g-mostafas-projects-c1a570c4.vercel.app/login">Show website</Link>
                 <Image src={arrIcon} alt={"title"} width={10} height={10} />
               </div>
             </div>

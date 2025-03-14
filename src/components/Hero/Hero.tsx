@@ -40,7 +40,7 @@ export default function Hero() {
             className="text-center text-[40px] md:text-5xl lg:text-6xl "
           />
 
-          <div className="text-center  text-sm my-4 md:text-lg lg:text-2xl  md:tracking-wider  ">
+          <div className="text-center text-sm my-4 md:text-lg lg:text-2xl md:tracking-wider">
             <TypewriterEffect
               words={[
                 { text: "Hi, I'm " },
@@ -56,7 +56,7 @@ export default function Hero() {
             <MagicBtn
               title="Download CV"
               postion="right"
-              icon={<FaDownload/>}
+              icon={<FaDownload />}
             />
           </Link>
         </div>
